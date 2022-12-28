@@ -13,4 +13,8 @@ What else do you need?
 
 ### Michael Peters
 
-My name is Michael Peters and I am a graduate student at The University of Pennsylvannia studying Electrical Engineering
+Hello, my name is Michael Peters and I am a graduate student at The University of Pennsylvannia studying Electrical Engineering
+
+
+### Praveen Raj Uma Maheswari Shyam Sundar
+
