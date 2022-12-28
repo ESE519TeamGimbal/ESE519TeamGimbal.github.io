@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About The Team
-subtitle: Team Members:
+subtitle: Team Members
 ---
 
 ### Michael Peters
@@ -11,4 +11,6 @@ I also currently work full time as an Avionics Engineer.
 
 
 ### Praveen Raj Uma Maheswari Shyam Sundar
+
+
 
