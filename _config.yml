@@ -22,8 +22,8 @@ author: Michael Peters & Praveen Raj Uma Maheswari Shyam Sundar
 navbar-links:
   About The Team: "aboutme"
   Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
+    - Midpoint Repo: "https://github.com/mvpeters/ESE519-Team-Gimbal-Midpoint"
+    - ESE Website: "https://www.ese.upenn.edu/"
 
 ################
 # --- Logo --- #
@@ -51,7 +51,8 @@ social-network-links:
 #  email: "someone@example.com"
 #  rss: true  # remove this line if you don't want to show an RSS link at the bottom
 #  facebook: deanattali
-  github: daattali
+  github: mvpeters
+  github: praveen-raj-u-s
 #  twitter: daattali
 #  patreon: DeanAttali
 #  youtube: c/daattali
