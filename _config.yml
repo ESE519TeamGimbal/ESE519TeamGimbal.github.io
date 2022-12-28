@@ -22,7 +22,10 @@ author: Michael Peters & Praveen Raj Uma Maheswari Shyam Sundar
 navbar-links:
   About The Team: "aboutme"
   Resources:
-    - Midpoint Repo: "https://github.com/mvpeters/ESE519-Team-Gimbal-Midpoint"
+    - Datasheet: "https://datasheets.raspberrypi.com/pico/raspberry-pi-pico-c-sdk.pdf"
+    - SDK Install Guide: "https://github.com/mvpeters/ESE-5190-Guides/blob/main/ESE5190-Lab2-Setup-Windows.md"
+    - Midpoint: "https://github.com/mvpeters/ESE519-Team-Gimbal-Midpoint"
+    - Final Code: "https://github.com/ESE519TeamGimbal/Project-Code"
     - ESE Website: "https://www.ese.upenn.edu/"
 
 ################
