@@ -2,8 +2,8 @@
 layout: post
 title: Introduction
 subtitle: Project Introduction and Overview
-gh-repo: orgs/ESE519TeamGimbal/repositories
-gh-badge: [star, fork, follow]
+#gh-repo: orgs/ESE519TeamGimbal/repositories
+#gh-badge: [star, fork, follow]
 #tags: [test]
 comments: true
 ---
