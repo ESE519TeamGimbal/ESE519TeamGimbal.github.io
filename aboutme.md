@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About The Team
-subtitle: Why you'd want to go on a date with me
+subtitle: Team Members:
 ---
 
 ### Michael Peters
