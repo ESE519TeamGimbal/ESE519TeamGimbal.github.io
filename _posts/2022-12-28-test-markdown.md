@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Sample blog post
-subtitle: Each post also has a subtitle
-gh-repo: daattali/beautiful-jekyll
+title: Introduction
+subtitle: Project Introduction and Overview
+gh-repo: orgs/ESE519TeamGimbal/repositories
 gh-badge: [star, fork, follow]
-tags: [test]
+#tags: [test]
 comments: true
 ---
 
