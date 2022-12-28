@@ -20,7 +20,7 @@ author: Michael Peters & Praveen Raj Uma Maheswari Shyam Sundar
 ###############################################
 
 navbar-links:
-  About Us: "aboutme"
+  About The Team: "aboutme"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
