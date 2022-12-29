@@ -12,7 +12,7 @@ We began this project with the initial idea of creating a gyro for a smartphone 
 The first step was to verify our proof of concept and test the idea using Python code. Both of us have had prior experience with Python, collecting sensor data, and turning servos so to test our idea we deceided to do our initial draft using python for the bulk of the coding. With some work and preexisting python libraries we were able to pretty quickly get the MPU gyro sensor reading and turning the servos. See below for a breif video of our midpoint design verification.
 
 
-**Midpoint Demo**{: .mx-auto.d-block :}
+                                                              **Midpoint Demo Gif**
 ![MidpointGif](https://user-images.githubusercontent.com/114199773/210019229-04e302cc-0c6a-4adb-8808-961d9fab36dd.gif){: .mx-auto.d-block :}
 
 
