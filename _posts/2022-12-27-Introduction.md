@@ -20,4 +20,4 @@ comments: true
 
 ## Introduction
 
-We are Team Gimbal and for our ESE519 Final Project we decieded to create a rocket engine stabilizer using the C SDK and the Adafruit QT Py RP2040.
+We are Team Gimbal and for our ESE519 Final Project we created a rocket engine stabilizer using the C SDK and the Adafruit QT Py RP2040.
