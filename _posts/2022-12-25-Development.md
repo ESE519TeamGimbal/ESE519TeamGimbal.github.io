@@ -14,6 +14,9 @@ The first step was to verify our proof of concept and test the idea using Python
 
 **INSERT VIDEO**
 
+![MidpointGif](https://user-images.githubusercontent.com/114199773/210019229-04e302cc-0c6a-4adb-8808-961d9fab36dd.gif)
+
+
 
 From here we knew that the components and code could achieve what we were looking for. From there it was just a matter of transitioning our code to use C and the PIO module. To do this we initially found some sample code to get the MPU6050 sensor read over I2C and a servo to turn using the PIO module. Links to these can be seen below:
 
