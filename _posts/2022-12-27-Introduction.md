@@ -8,3 +8,12 @@ comments: true
 ---
 
 This is an introduction to our ESE Final Project: Team Gimbal.
+
+
+Table of Contents
+
+1. [Project Overview and Introduction](https://ese519teamgimbal.github.io/2022-12-27-Introduction/)
+2. [Components and Assembly Details](https://ese519teamgimbal.github.io/2022-12-26-Instructions/)
+3. [Development and Troubleshooting](https://ese519teamgimbal.github.io/2022-12-25-Development/)
+4. [Design Reflections and Future Plans](https://ese519teamgimbal.github.io/2022-12-24-Reflections/)
+5. [PIO Module and Conclusion](https://ese519teamgimbal.github.io/2022-12-23-PIO/)
