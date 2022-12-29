@@ -10,7 +10,7 @@ comments: true
 This is an introduction to our ESE Final Project: Team Gimbal.
 
 
-Table of Contents
+## Table of Contents
 
 1. [Project Overview and Introduction](https://ese519teamgimbal.github.io/2022-12-27-Introduction/)
 2. [Components and Assembly Details](https://ese519teamgimbal.github.io/2022-12-26-Instructions/)
