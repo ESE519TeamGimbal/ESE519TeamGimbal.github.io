@@ -2,8 +2,8 @@
 layout: post
 title: Instructions
 subtitle: Components and Assembly Details
-#cover-img: /assets/img/IMG_4739.JPG
-#thumbnail-img: /assets/img/IMG_4737.JPG
+cover-img: /assets/img/GimbalRendered1.png
+thumbnail-img: /assets/img/GimbalRendered1.png
 comments: true
 ---
 
