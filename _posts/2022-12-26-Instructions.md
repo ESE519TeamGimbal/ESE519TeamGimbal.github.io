@@ -16,6 +16,12 @@ The components used were
 | STEMMA QT 4 Pin to Male Header | 1 |
 | Tower Pro SG5010 Servo | 2 |
 | Elego 5V Power Supply Module | 1 |
+| Custom 3-D Printed Gyro | 1 |
+| Custom 3-D Printed Rocket Body | 1 |
+| Custom 3-D Printed Servo Connector | 2 |
+| USB C to USB A Adapter | 1 |
+| Wires | 7 |
+
 
 See the bottom of the post for pictures
 
