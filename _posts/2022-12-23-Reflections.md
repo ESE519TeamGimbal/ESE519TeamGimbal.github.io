@@ -12,6 +12,9 @@ comments: true
 Overall we were happy with how our final project turned out. We feel that the electric components selected fit the design very well and were simple enough that someone could recreate our design if they wanted. The 3-D printed components also were designed well so that they were light and the electronics fit into them well. I think we were very satisfied with how few components we needed to make the design and with how responsive it was. Any slight movement seemed to be instantly accounted for by the servos. There was little to no delay which we were excited about and many people commented on during our demo.
 
 
+![FINALprojectGIF](https://user-images.githubusercontent.com/114199773/210115391-0900e8a2-1f0a-44ae-91c8-d5ebf56d5aac.gif)
+
+
 ## Future Changes:
 
 If we were to repeat the design I think adding a 3-D printed shelf of some sort on top of the gimbal for the power supply and battery would be a nice addition. Since in theory the design is meant to be inside a working rocket it would be nice to have a shelf to place the electronics that don't snap into the gimbal. 
