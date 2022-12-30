@@ -7,9 +7,12 @@ thumbnail-img: /assets/img/GimbalRendered1.png
 comments: true
 ---
 
+## Design Reflections:
+
 Overall we were happy with how our final project turned out. We feel that the electric components selected fit the design very well and were simple enough that someone could recreate our design if they wanted. The 3-D printed components also were designed well so that they were light and the electronics fit into them well.
 
 
+## Future Changes:
 
 If we were to repeat the design I think adding a 3-D printed shelf of some sort on top of the gimbal for the power supply and battery would be a nice addition. Since in theory the design is meant to be inside a working rocket it would be nice to have a shelf to place the electronics that don't snap into the gimbal. 
 
