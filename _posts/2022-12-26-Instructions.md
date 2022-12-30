@@ -35,6 +35,9 @@ Download the C SDK for the RP2040 discussed in the datasheet and install guide p
 
 Connect the 4 pins from the STEMMA QT cable to their associated pins (Black: Ground, Red: V+, Yellow: SCL, Blue: SDA) to the matching pins on the sensor. Plug the other end into the RP2040 controller. Next plug the RP2040 into the USB adaptor and that into the power supply. On the top of the power supply connect the servos 5V (Red wire) and ground pins (Brown wire). Connect an additional ground to the ground of the RP2040. Finally connect the two servo data lines (Yellow wire) to the RP2040 GPIO pins A0 and A1. The power supply module can then be powered by a wall plug or battery pack and can be turned on with the button on top. See the pin out drawing below fr the QT PY.
 
+
+#Component Images For Reference
+
 **Custom 3-D Printed Three Component Gimbal**
 
 ![GimbalComponents](https://user-images.githubusercontent.com/114199773/210109832-033c6c84-c2d8-4a1d-957f-9e32bb751ee6.JPG)
