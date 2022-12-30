@@ -27,10 +27,12 @@ The goal of our design was to make it as simple and with as few components as po
 
 
 **To upload the code**
+
 Download the C SDK for the RP2040 discussed in the datasheet and install guide provided under the "Resources" tab at the top of this page. Download all the code from our [GitHub repository](https://github.com/ESE519TeamGimbal/Project-Code) and build the UF2 file to upload. A sample UF2 file is also provided in our repo. Once it is built drag and drop in onto the RP2040 using the file explorer tab. The code should now be uploaded and the controller can be disconnected from your computer.
 
 
 **To wire up the project:**
+
 Connect the 4 pins from the STEMMA QT cable to their associated pins (Black: Ground, Red: V+, Yellow: SCL, Blue: SDA) to the matching pins on the sensor. Plug the other end into the RP2040 controller. Next plug the RP2040 into the USB adaptor and that into the power supply. On the top of the power supply connect the servos 5V (Red wire) and ground pins (Brown wire). Connect an additional ground to the ground of the RP2040. Finally connect the two servo data lines (Yellow wire) to the RP2040 GPIO pins A0 and A1. The power supply module can then be powered by a wall plug or battery pack and can be turned on with the button on top.
 
 
