@@ -62,7 +62,7 @@ From these baseline codes we began combining them and getting both servos to tur
 ~~~
 
 
-We were also able to fix the sensor not being acurately zerod by adding or subtracting this small offset so our readings were more accurate.
+We were also able to fix the sensor not being acurately zerod by adding or subtracting this small offset so our readings were more accurate. We left the sensor still and averaged 100 readings to get accurate offsets.
 
 ~~~
 //offsets x=2, y=0 z=0
