@@ -14,5 +14,10 @@ I also currently work full time as an Avionics Engineer.
 
 ### Praveen Raj Uma Maheswari Shyam Sundar
 
+A Curious Engineer working towards the expansion of the boundaries of Human Race through technological advancements, pursuing my masters in Electrical 
+Engineering at the University of Pennsylvania. Guidance and Navigation Team member at Penn Rocket Team. Co-founder and CEO at TriZ AI Private Limited (https://triz-ai.com).
+
+[Github Account](https://github.com/Praveen-Raj-u-s)
+
 
 
