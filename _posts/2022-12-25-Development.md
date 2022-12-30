@@ -3,7 +3,7 @@ layout: post
 title: Development
 subtitle: Evolution and Troubleshooting History
 cover-img: /assets/img/DevelopmentCOVER.JPG
-thumbnail-img: /assets/img/DevelopmentCOVER.JPG
+thumbnail-img: /assets/img/3DPRINTSS1.JPG
 comments: true
 ---
 
