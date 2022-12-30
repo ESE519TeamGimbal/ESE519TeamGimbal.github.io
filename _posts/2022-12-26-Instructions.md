@@ -9,15 +9,15 @@ comments: true
 
 The components used were in our project can be seen in the table below. See the bottom of this post for pictures of each item.
 
-| Component | Quantity |
+| Components | Quantity |
 | :------ |:--- | :--- |
 | Adafruit QT Py RP2040 | 1 |
 | GY 521 MPU6050 Gyro | 1 |
 | STEMMA QT 4 Pin to Male Header | 1 |
 | Tower Pro SG5010 Servo | 2 |
 | Elego 5V Power Supply Module | 1 |
-| Custom 3-D Printed Gyro | 1 |
-| Custom 3-D Printed Rocket Body | 1 |
+| Custom 3-D Printed Gimbal | 1 |
+| Custom 3-D Printed Rocket Body | 1 (Optional) |
 | Custom 3-D Printed Servo Connector | 2 |
 | USB C to USB A Adapter | 1 |
 | Wires | 7 |
@@ -35,6 +35,9 @@ Download the C SDK for the RP2040 discussed in the datasheet and install guide p
 
 Connect the 4 pins from the STEMMA QT cable to their associated pins (Black: Ground, Red: V+, Yellow: SCL, Blue: SDA) to the matching pins on the sensor. Plug the other end into the RP2040 controller. Next plug the RP2040 into the USB adaptor and that into the power supply. On the top of the power supply connect the servos 5V (Red wire) and ground pins (Brown wire). Connect an additional ground to the ground of the RP2040. Finally connect the two servo data lines (Yellow wire) to the RP2040 GPIO pins A0 and A1. The power supply module can then be powered by a wall plug or battery pack and can be turned on with the button on top. See the pin out drawing below fr the QT PY.
 
+**Custom 3-D Printed 3 Component Gimbal**
+
+![GimbalComponents](https://user-images.githubusercontent.com/114199773/210109832-033c6c84-c2d8-4a1d-957f-9e32bb751ee6.JPG)
 
 **Adafruit QT PY RP2040**
 
