@@ -7,7 +7,7 @@ thumbnail-img: /assets/img/FullRocket.jpg
 comments: true
 ---
 
-The components used were in our project can be seen in the table below. See the bottom of this post for pictures of each item.
+**Components Used in Design**
 
 | Components | Quantity |
 | :------ |:--- | :--- |
