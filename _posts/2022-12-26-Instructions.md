@@ -36,6 +36,14 @@ Download the C SDK for the RP2040 discussed in the datasheet and install guide p
 Connect the 4 pins from the STEMMA QT cable to their associated pins (Black: Ground, Red: V+, Yellow: SCL, Blue: SDA) to the matching pins on the sensor. Plug the other end into the RP2040 controller. Next plug the RP2040 into the USB adaptor and that into the power supply. On the top of the power supply connect the servos 5V (Red wire) and ground pins (Brown wire). Connect an additional ground to the ground of the RP2040. Finally connect the two servo data lines (Yellow wire) to the RP2040 GPIO pins A0 and A1. The power supply module can then be powered by a wall plug or battery pack and can be turned on with the button on top. See the pin out drawing below fr the QT PY.
 
 
+## 3D Print Parts and Assembly
+
+Lastly, 3-D print the three parts for the gimbal. Stick the two servo motors into the slots for them and screw them in. Connect the inner ring to the outter servo shaft and the motor holder to the inside servo shaft. After all the wires are connected and servos fitted the gimbal can be put inside a model rocket for launch.
+
+
+![FINALprojectGIF](https://user-images.githubusercontent.com/114199773/210115476-1f59b952-7a3b-40b4-9bf8-5529556b1b97.gif)
+
+
 ## Component Images For Reference
 
 **Custom 3-D Printed Three Component Gimbal**
