@@ -25,4 +25,45 @@ This design had a few issues such as the gyro not being perfectly zerod or the v
 
 [Default Servo Pio Code](https://www.hackster.io/naveenbskumar/raspberry-pi-pico-drive-servo-using-pio-d7a0e7)
 
-From these baseline codes we began combining them and getting both servos to turn identically to how we did with the python code previously. We deceided to only work with two axis of rotation (X & Y) as it would make the design simpler, lighter, and the Z axis does not help in stability much given the rocket is elevating anyway. The code uses the STEMMA QT cable and I2C connection to get readings from the sensor. This data feeds into the PIO module 0. The module uses state machines 0 & 1 to each control each servo. We were also able to fix our previous issues of the servos turning too much by implementing a simple if statement loop. We were also able to fix the sensor not being acurately zerod by adding or subtracting this small offset so our readings were more accurate.
+From these baseline codes we began combining them and getting both servos to turn identically to how we did with the python code previously. We deceided to only work with two axis of rotation (X & Y) as it would make the design simpler, lighter, and the Z axis does not help in stability much given the rocket is elevating anyway. The code uses the STEMMA QT cable and I2C connection to get readings from the sensor. This data feeds into the PIO module 0. The module uses state machines 0 & 1 to each control each servo. We were also able to fix our previous issues of the servos turning too much by implementing a simple if statement loop seen below.
+
+
+~~~
+    if (ms <= MIN_DC) {
+        MPU6050_ReadData(accelerometer, gyro, &temp);
+        printf("Gyro X= %d  Y= %d   Z= %d ms= %d ms1= %d\r\n",gyro0, gyro1, gyro2, ms, ms1);
+        ms = MIN_DC + 10;
+        ms1 += gyro2/4;
+    }
+    if (ms >= MAX_DC) {
+        MPU6050_ReadData(accelerometer, gyro, &temp);
+        printf("Gyro X= %d  Y= %d   Z= %d ms= %d ms1= %d\r\n",gyro0, gyro1, gyro2, ms, ms1);
+        ms = MAX_DC - 10;
+        ms1 += gyro2/4;
+    }
+    if (ms1 <= MIN_DC) {
+        MPU6050_ReadData(accelerometer, gyro, &temp);
+        printf("Gyro X= %d  Y= %d   Z= %d ms= %d ms1= %d\r\n",gyro0, gyro1, gyro2, ms, ms1);
+        ms += gyro0/4;
+        ms1 = MIN_DC + 10;
+    }
+    if (ms1 >= MAX_DC) {
+        MPU6050_ReadData(accelerometer, gyro, &temp);
+        printf("Gyro X= %d  Y= %d   Z= %d ms= %d ms1= %d\r\n",gyro0, gyro1, gyro2, ms, ms1);
+        ms += gyro0/4;
+        ms1 = MAX_DC - 10;
+    }
+    else {
+        MPU6050_ReadData(accelerometer, gyro, &temp);
+        printf("Gyro X= %d  Y= %d   Z= %d ms= %d ms1= %d\r\n",gyro0, gyro1, gyro2, ms, ms1);
+        ms += gyro0/4; //100; //gyro0;
+        ms1 += gyro2/4;
+    }
+~~~
+
+
+We were also able to fix the sensor not being acurately zerod by adding or subtracting this small offset so our readings were more accurate.
+
+~~~
+//offsets x=2, y=0 z=0
+~~~
