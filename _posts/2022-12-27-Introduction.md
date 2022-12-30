@@ -18,6 +18,13 @@ comments: true
 5. [Design Reflections and Future Plans](https://ese519teamgimbal.github.io/2022-12-23-Reflections/)
 6. [Team Bio](https://ese519teamgimbal.github.io/aboutme/)
 
+## Other Important Links
+1. [Datasheet](https://datasheets.raspberrypi.com/pico/raspberry-pi-pico-c-sdk.pdf)
+2. [SDK Install Guide](https://github.com/mvpeters/ESE-5190-Guides/blob/main/ESE5190-Lab2-Setup-Windows.md)
+3. [Midpoint Repo](https://github.com/mvpeters/ESE519-Team-Gimbal-Midpoint)
+4. [Final Code](https://github.com/ESE519TeamGimbal/Project-Code)
+
+
 ## Introduction
 
 
