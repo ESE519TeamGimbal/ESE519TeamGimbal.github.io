@@ -35,12 +35,10 @@ Download the C SDK for the RP2040 discussed in the datasheet and install guide p
 
 Connect the 4 pins from the STEMMA QT cable to their associated pins (Black: Ground, Red: V+, Yellow: SCL, Blue: SDA) to the matching pins on the sensor. Plug the other end into the RP2040 controller. Next plug the RP2040 into the USB adaptor and that into the power supply. On the top of the power supply connect the servos 5V (Red wire) and ground pins (Brown wire). Connect an additional ground to the ground of the RP2040. Finally connect the two servo data lines (Yellow wire) to the RP2040 GPIO pins A0 and A1. The power supply module can then be powered by a wall plug or battery pack and can be turned on with the button on top. See the pin out drawing below fr the QT PY.
 
-![image](https://user-images.githubusercontent.com/114199773/210023928-94e98c0c-60c5-44ca-9a73-a9f6cf332a35.png)
-
 
 **Adafruit QT PY RP2040**
 
-![image](https://user-images.githubusercontent.com/114199773/210021693-3a382f32-56c6-43b4-a9d5-326a68b6f387.png)
+![image](https://user-images.githubusercontent.com/114199773/210023928-94e98c0c-60c5-44ca-9a73-a9f6cf332a35.png)
 
 **GY 521 MPU6050 Gyro**
 
