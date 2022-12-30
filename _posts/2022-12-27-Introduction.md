@@ -23,7 +23,7 @@ comments: true
 
 We are Team Gimbal and for our ESE519 Final Project we created a rocket engine stabilizer using the C SDK and the Adafruit QT Py RP2040. During a model rocket launch the goal is to have the rocket stay as vertical as possible so it can reach the highest possible altitude. However, there are usually a variety of factors that can cause it to drift slightly and redude altitude. Our gimbal is designed to be attached around the engine inside a model rocket and provide counter forces to stabilize the engine.
 
-<iframe width="432" height="860" src="https://user-images.githubusercontent.com/114199773/210104405-ba835d42-da17-481c-b8f5-0b03fc46ebdc.mp4" frameborder="0"> </iframe>
+<iframe width="389" height="774" src="https://user-images.githubusercontent.com/114199773/210104405-ba835d42-da17-481c-b8f5-0b03fc46ebdc.mp4" frameborder="0"> </iframe>
 
 
 
