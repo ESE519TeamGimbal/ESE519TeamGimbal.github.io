@@ -26,7 +26,7 @@ The components used were in our project can be seen in the table below. See the 
 The goal of our design was to make it as simple and with as few components as possible given it needs to fit inside a model rocket. We did this by carefully selecting our components. First the Adafruit QT PY RP2040 microcontroller is extremely compact and powerful and has the ability to control all the other components. Next the GY 521 gyro is again compact and has all the capabilities we needed. The STEMMA cable was used to directly and easily connect to the sensor and controller as it has the 4 essential pins you need to operate the sensor. Next the two servos only have three pins each, one for power, ground, and the signal. Finally the power supply has enough pins on the top to supply voltage and ground to the servos and controller. It also has a USB slot that the controller can be plugged into again to cut down on wiring.
 
 
-**To upload the code**
+**To upload the code:**
 
 Download the C SDK for the RP2040 discussed in the datasheet and install guide provided under the "Resources" tab at the top of this page. Download all the code from our [GitHub repository](https://github.com/ESE519TeamGimbal/Project-Code) and build the UF2 file to upload. A sample UF2 file is also provided in our repo. Once it is built drag and drop in onto the RP2040 using the file explorer tab. The code should now be uploaded and the controller can be disconnected from your computer.
 
