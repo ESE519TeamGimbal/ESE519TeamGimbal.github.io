@@ -9,7 +9,7 @@ comments: true
 
 ## Design Reflections:
 
-Overall we were happy with how our final project turned out. We feel that the electric components selected fit the design very well and were simple enough that someone could recreate our design if they wanted. The 3-D printed components also were designed well so that they were light and the electronics fit into them well.
+Overall we were happy with how our final project turned out. We feel that the electric components selected fit the design very well and were simple enough that someone could recreate our design if they wanted. The 3-D printed components also were designed well so that they were light and the electronics fit into them well. I think we were very satisfied with how few components we needed to make the design and with how responsive it was. Any slight movement seemed to be instantly accounted for by the servos. There was little to no delay which we were excited about and many people commented on during our demo.
 
 
 ## Future Changes:
