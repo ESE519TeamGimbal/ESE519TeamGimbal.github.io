@@ -80,7 +80,7 @@ We were also able to fix the sensor not being acurately zerod by adding or subtr
 //offsets x=2, y=0 z=0
 ~~~
 
-Next we also had to redesign the 3-D printed gimbal after our midpoint to give it more flexibility and properly turn. We also had to print custom servo attachments so the servos would better snap into the gimbal and turn with less resistance. To do this we split it up into three separate layers that better snap into one another. 
+Next we also had to redesign the 3-D printed gimbal after our midpoint to give it more flexibility and properly turn. We also had to print custom servo attachments so the servos would better snap into the gimbal and turn with less resistance. To do this we split it up into three separate layers that better snap into one another. The left most layer is what holds the entire thing and has a slot for one of the servos. The middle layer snaps onto the first servo shaft so that it can be turned and holds the second servo. The right layer snaps onto the second servo shaft and is what holds the rocket engine to stabilize it. 
 
 ![GimbalComponents](https://user-images.githubusercontent.com/114199773/210112274-6b25a273-bfc9-481c-bb2d-968b50d88a1a.JPG)
 
