@@ -17,7 +17,7 @@ Overall we were happy with how our final project turned out. We feel that the el
 
 ## Future Changes:
 
-If we were to repeat the design I think adding a 3-D printed shelf of some sort on top of the gimbal for the power supply and battery would be a nice addition. Since in theory the design is meant to be inside a working rocket it would be nice to have a shelf to place the electronics that don't snap into the gimbal. 
+If we were to repeat the design I think adding a 3-D printed shelf of some sort on top of the gimbal for the power supply and battery would be a nice addition. Since in theory the design is meant to be inside a working rocket it would be nice to have a shelf to place the electronics that don't snap into the gimbal. Also it would prevent them moving around during flight. The body of the rocket could also be improved if we were going to 3-D print our own and not put the gimbal in an already existing rocket.
 
 Next having more time to configure the electronics for accuracy. As we discussed on the project demo day there is some amount of drift that occurs over time on the gimbal. Adding some sort of zero point to the design to prevent drift could be a nice addition. Also updating the code so it better tracks when it goes past the servo angle limits. Right now it just sets the servos to their max or min value if it goes over the limit so that the chip doesn't produce too much current and fry itself. The problem is that this current setup causes drift if the servo maxes out. Adding an additional variable to the code to track this drift could be a useful addition.
 
