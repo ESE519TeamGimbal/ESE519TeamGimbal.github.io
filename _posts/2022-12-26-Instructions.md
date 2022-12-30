@@ -3,7 +3,7 @@ layout: post
 title: Instructions
 subtitle: Components and Assembly Details
 cover-img: /assets/img/GimbalComponents.JPG
-thumbnail-img: /assets/img/GimbalRendered1.png
+thumbnail-img: /assets/img/FullRocket.jpg
 comments: true
 ---
 
