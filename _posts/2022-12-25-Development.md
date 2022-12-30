@@ -22,6 +22,13 @@ The first step was to verify our proof of concept and test the idea using Python
 
 [Midpoint Repo](https://github.com/mvpeters/ESE519-Team-Gimbal-Midpoint)
 
+
+As for the 3-D printed design, we created a sample drawing in CAD and printed it to see if it would work. We found that the servos didn't fit into it well enough to actually turn the inner componenets so we realized that the design needed to be changed and custom attachements also needed to be printed. However, we did like the material of the initial print and the size of our design soonly a few changes were necessary.  Below is a rendering of our original gimbal design which after printing we realized it had to be modified. 
+
+
+![Gimbal Rendered](https://user-images.githubusercontent.com/114199773/210111932-e046d2d9-44e8-4253-90f6-bebc3dfec657.png)
+
+
 ## Final Design Adjustments:
 
 This design had a few issues such as the gyro not being perfectly zerod or the value exceeding the 180 degree limit of a servo motor. We chose to move on from the python code however without fixing these issues as they would be addresses in the final C code. From here we knew that the components and code could achieve what we were looking for, it was just a matter of transitioning our code to use C and the PIO module. To do this we initially found some sample code to get the MPU6050 sensor read over I2C and a servo to turn using the PIO module. Links to these can be seen below:
@@ -72,3 +79,8 @@ We were also able to fix the sensor not being acurately zerod by adding or subtr
 ~~~
 //offsets x=2, y=0 z=0
 ~~~
+
+Next we also had to redesign the 3-D printed gimbal after our midpoint to give it more flexibility and properly turn. We also had to print custom servo attachments so the servos would better snap into the gimbal and turn with less resistance. To do this we split it up into three separate layers that better snap into one another. 
+
+![GimbalComponents](https://user-images.githubusercontent.com/114199773/210112274-6b25a273-bfc9-481c-bb2d-968b50d88a1a.JPG)
+
